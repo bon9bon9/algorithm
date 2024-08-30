@@ -13,7 +13,6 @@ public class aug30 {
         }
         str.sort((o1, o2) -> (o2 + o1).compareTo(o1 + o2));
         String answer = String.join("",str);
-        System.out.println(answer.substring(0));
         return answer.substring(0,1).equals("0") ? "0" : answer;
     }
 
